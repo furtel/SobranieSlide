@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/drawable/slideshow.xml" value="0.51" />
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/layout/activity_main.xml" value="0.5453125" />
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/layout/activity_video2.xml" value="0.3171875" />
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/layout/activity_video3.xml" value="0.3171875" />
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/layout/activity_video4.xml" value="0.3171875" />
+        <entry key="..\:/OneDrive - Mullenlowe/Codding/apk/SobranieSlide/app/src/main/res/layout/video_3.xml" value="0.3171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
