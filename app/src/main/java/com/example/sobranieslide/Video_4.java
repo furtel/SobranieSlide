@@ -1,18 +1,15 @@
 package com.example.sobranieslide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.VideoView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Video_4 extends AppCompatActivity {
-    private Button button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,19 +26,10 @@ public class Video_4 extends AppCompatActivity {
         //autostart
         videoView.start();
         //loop video
-        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            public void onCompletion(MediaPlayer mp) {
-                videoView.start();
-            }
-        });
+        videoView.setOnCompletionListener(mp -> videoView.start());
 
-        button4 = findViewById(R.id.button4);
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMainActivity();
-            }
-        });
+        Button button4 = findViewById(R.id.button4);
+        button4.setOnClickListener(view -> openMainActivity());
     }
     public void openMainActivity() {
         Intent intent = new Intent(this, MainActivity.class);
